@@ -4,6 +4,7 @@ import icnSearch from "../assets/icn_search.png";
 import { auth, googleProvider } from "../firebase/setup";
 import { signInWithPopup, signOut } from "firebase/auth";
 
+
 const Navbar = () => {
   const [user, setUser] = useState(null);
 
